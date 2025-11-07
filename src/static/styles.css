@@ -179,6 +179,21 @@ footer {
   white-space: nowrap;
 }
 
+/* Small remove button shown next to participants */
+.remove-btn {
+  background: transparent;
+  border: none;
+  color: #c62828;
+  cursor: pointer;
+  margin-left: 8px;
+  font-size: 12px;
+  line-height: 1;
+  padding: 0 4px;
+}
+.remove-btn:hover {
+  color: #b71c1c;
+}
+
 .no-participants {
   color: #666;
   font-style: italic;
